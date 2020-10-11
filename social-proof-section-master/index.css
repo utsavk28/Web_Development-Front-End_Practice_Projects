@@ -1,0 +1,40 @@
+body {
+    font-family: url(https://fonts.google.com/specimen/Sparta);
+    font-size: 15px;
+}
+
+h1 {
+    color:hsl(300, 43%, 22%);
+}
+
+.block_content {
+    background-color:hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* .head_content {
+    
+} */
+
+.head_link {
+    color: hsl(333, 80%, 67%);
+}
+
+.star {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    padding: 5px;
+}
+
+.left1 {
+    width : 300px;
+    top:0px;
+    left:0px;
+    height: 100%;
+}
+
+.right1 {
+    margin-left: 410px;
+    padding: 20px;
+    
+}
