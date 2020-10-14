@@ -1,40 +1,132 @@
 body {
-    font-family: url(https://fonts.google.com/specimen/Sparta);
+    background-image: url("images/bg-pattern-top-desktop.svg" ),url("images/bg-pattern-bottom-desktop.svg");
+    background-position: top left,bottom right ;
+    background-repeat:no-repeat ;
     font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    min-width: 375px;
+    padding: 0px;
+    margin: 50px;
+    line-height: 1.5;
 }
 
-h1 {
-    color:hsl(300, 43%, 22%);
+img {
+    max-width:100%;
+    height:auto;
 }
 
-.block_content {
-    background-color:hsl(300, 43%, 22%);
-    color: hsl(0, 0%, 100%);
-}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
 
-/* .head_content {
-    
-} */
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
-.head_link {
-    color: hsl(333, 80%, 67%);
-}
-
-.star {
-    background-color: hsl(300, 24%, 96%);
-    color: hsl(300, 43%, 22%);
-    padding: 5px;
+.top{
+    display: flex;
 }
 
 .left1 {
-    width : 300px;
-    top:0px;
-    left:0px;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0px 50px;
+    padding: 50px 25px;
 }
 
-.right1 {
-    margin-left: 410px;
-    padding: 20px;
+.left1-head{
+    width: 450px;
+    color: hsl(300, 43%, 22%);
+    font-size: 3.1rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 5px;
     
+}
+
+.left1-content{
+    width: 450px;
+    color: hsl(303, 10%, 53%);
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    padding: 75px 25px;
+  
+}
+
+.container-content1 {
+    border-radius: 10px;
+    width: 500px;
+    background-color:hsl(300, 24%, 96%) ;
+    color:hsl(300, 43%, 22%);
+    margin: 10px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+.container-content2 {
+    border-radius: 10px;
+    width: 500px;
+    background-color:hsl(300, 24%, 96%) ;
+    color:hsl(300, 43%, 22%);
+    margin: 10px 75px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+.container-content3 {
+    border-radius: 10px;
+    width: 500px;
+    background-color:hsl(300, 24%, 96%) ;
+    color:hsl(300, 43%, 22%);
+    margin: 10px 150px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
+.bottom-content {
+    display: flex;
+    /* border: 5px solid black; */
+    width: 1360px;
+    height: 325px;
+    margin: 0px 0px 0px 60px;
+}
+
+.review {
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 15px;
+    padding: 5px;
+    height: 250px;
+}
+
+.review-img {
+    padding: 40px 10px 10px 10px;
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.review-name {
+    padding: 50px 10px 0px 10px;
+    margin: 0px;
+    color:hsl(300, 24%, 96%);
+}
+
+.review-pos{
+    padding: 0px;
+    margin: 0px;
+    color:hsl(333, 80%, 67%);
+
+}
+
+.review-content {
+    padding: 20px;
+    color:hsl(300, 24%, 96%);
 }
