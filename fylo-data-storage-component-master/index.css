@@ -1,0 +1,19 @@
+body {
+    background-color:  hsl(229, 57%, 11%);
+    color: white;
+    width: 1440px;
+    background-image: url(images/bg-desktop.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    height: 800px;
+    min-width: 375px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
