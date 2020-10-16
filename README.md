@@ -7,3 +7,5 @@ All the below projects are practice projects(basically clone)/Challenge Problem 
 |Social-Proof-section|https://web-development-front-end-practice-projects-7nj30onyv.vercel.app/|
 |Fylo-data-storage-componenet|Not Deployed Yet|
 |Four card feature section|https://four-card-feature-section-utsav.vercel.app/|
+|Clipboard-Landing-Page|Not Deployed Yet|
+|Huddle Landing Page|Not Deployed Yet|
